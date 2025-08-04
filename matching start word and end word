@@ -1,0 +1,5 @@
+ame=str(input("enter your name:"))
+if name[0]==name[-1]:
+    print("lucky")
+else:
+    print("super lucky")
