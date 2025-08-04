@@ -1,0 +1,20 @@
+n = int(input("Enter the amount : "))
+if n == 10:
+     print("Collect Chips Packet")
+elif n ==20:
+     m = input("Select From the List [w,T,S,F,B] : ")
+     if m=="W":
+         print("Collect Water Bottle")
+     elif m=="T":
+         print("Collect Thumps Up")
+     elif m=="S":
+       print("Collect Sprite")
+     elif m=="F":
+         print("Collect Fanta")
+     elif m=="B":
+         print("Collect Bindu")
+     else:
+         print("Product Not Exist")
+else:
+         print("No Products Available,Order Declined")
+         print("Thanks For Visiting, See you Soon")
