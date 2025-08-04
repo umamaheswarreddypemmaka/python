@@ -1,0 +1,6 @@
+a = input("Enter the word : ")
+for i in range(0,1):                       
+     if a==a[ :: -1]:
+        print("Word is Palindrome")
+     else:
+         print("Word is not Palindrome") 
